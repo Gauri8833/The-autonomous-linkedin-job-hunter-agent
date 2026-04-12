@@ -1,0 +1,53 @@
+{
+  "industry": "product_management",
+  "display_name": "Product Manager",
+  "summary": "Product manager with 4+ years of experience defining and launching tech products. Strong in user research, roadmapping, and cross-functional leadership. Track record of delivering products that achieve market fit and business objectives.",
+  "skills": {
+    "tools": ["Jira", "Confluence", "Figma", "Mixpanel", "Amplitude"],
+    "methodologies": ["Agile", "Scrum", "Kanban", "OKRs"],
+    "analytics": ["Google Analytics", "Tableau", "Excel"],
+    "research": ["User interviews", "Surveys", "A/B testing"],
+    "languages": ["Python", "SQL"]
+  },
+  "experience": [
+    {
+      "title": "Senior Product Manager",
+      "company": "TechVentures",
+      "duration": "2022 - Present",
+      "location": "Bangalore, India",
+      "highlights": [
+        "Led launch of B2B SaaS product growing ARR to $5M in 18 months",
+        "Increased user retention by 35% through improved onboarding flow",
+        "Managed cross-functional team of 12 including engineers and designers"
+      ]
+    },
+    {
+      "title": "Associate Product Manager",
+      "company": "DigitalFirst Startup",
+      "duration": "2020 - 2022",
+      "location": "Bangalore, India",
+      "highlights": [
+        "Conducted 100+ user interviews to inform product roadmap",
+        "Shipped mobile app with 4.8 star rating on App Store"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MBA in Product Management",
+      "institution": "ISB Hyderabad",
+      "year": "2020",
+      "cgpa": "3.8"
+    },
+    {
+      "degree": "B.Tech in Computer Science",
+      "institution": "NIT Trichy",
+      "year": "2018",
+      "cgpa": "8.1"
+    }
+  ],
+  "certifications": [
+    "CSPO (Certified Scrum Product Owner)",
+    "Google Analytics Individual Qualification"
+  ]
+}

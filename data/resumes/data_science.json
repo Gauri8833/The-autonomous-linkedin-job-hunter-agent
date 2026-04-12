@@ -1,0 +1,64 @@
+{
+  "industry": "data_science",
+  "display_name": "Data Scientist",
+  "summary": "Data scientist with 3+ years experience in machine learning, statistical analysis, and predictive modeling. Expert in Python, SQL, and ML frameworks with a track record of delivering actionable insights that drive business growth.",
+  "skills": {
+    "languages": ["Python", "R", "SQL", "Scala"],
+    "ml_frameworks": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras"],
+    "tools": ["Jupyter", "Tableau", "PowerBI", "Excel"],
+    "cloud": ["AWS", "GCP", "Azure"],
+    "databases": ["PostgreSQL", "BigQuery", "Snowflake"],
+    "libraries": ["Pandas", "NumPy", "Matplotlib", "Seaborn"]
+  },
+  "experience": [
+    {
+      "title": "Senior Data Scientist",
+      "company": "FinTech Analytics Corp",
+      "duration": "2022 - Present",
+      "location": "Mumbai, India",
+      "highlights": [
+        "Built ML models improving customer retention by 25%",
+        "Developed fraud detection algorithm saving $2M annually",
+        "Created interactive dashboards used by C-suite executives"
+      ]
+    },
+    {
+      "title": "Data Analyst",
+      "company": "E-commerce Insights",
+      "duration": "2020 - 2022",
+      "location": "Pune, India",
+      "highlights": [
+        "Analyzed customer behavior data leading to 15% increase in sales",
+        "Automated weekly reporting reducing manual work by 10 hours/week"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Sc. in Data Science",
+      "institution": "IIT Bombay",
+      "year": "2020",
+      "cgpa": "8.7"
+    },
+    {
+      "degree": "B.Sc. in Statistics",
+      "institution": "Delhi University",
+      "year": "2018",
+      "cgpa": "8.2"
+    }
+  ],
+  "certifications": [
+    "TensorFlow Developer Certificate",
+    "Google Cloud Machine Learning Engineer"
+  ],
+  "projects": [
+    {
+      "name": "Customer Churn Prediction",
+      "description": "Built model achieving 92% accuracy in predicting customer churn"
+    },
+    {
+      "name": "Sales Forecasting",
+      "description": "LSTM-based forecasting model with 87% accuracy"
+    }
+  ]
+}

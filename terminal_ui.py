@@ -123,3 +123,64 @@ def print_session_summary(posted, skipped, errors, log_path):
 
 def print_duplicate_skip(post_id):
     print(f"{YELLOW}⏭  Already commented on this post — skipping{RESET}")
+
+
+def print_job_match_info(job_title, match_score, resume_exp, required_exp):
+    """Print job match information."""
+    score_color = GREEN if match_score >= 70 else (YELLOW if match_score >= 50 else RED)
+    print(f"\n  Job Title: {job_title}")
+    print(f"  Match Score: {score_color}{match_score}%{RESET}")
+    print(f"  Your Level: {resume_exp} | Required: {required_exp}")
+
+
+def print_resume_summary(resume):
+    """Print resume summary."""
+    if not resume:
+        return
+    print(f"\n{BOLD}── Resume Summary ──{RESET}")
+    print(f"  Industry: {resume.get('display_name')}")
+    print(f"  Summary: {resume.get('summary')[:100]}...")
+    skills = resume.get("skills", {})
+    print(f"  Skills: {len(skills)} categories")
+    for category, skill_list in skills.items():
+        if isinstance(skill_list, list):
+            print(f"    - {category}: {', '.join(skill_list[:5])}")
+
+
+def print_banner_agentic():
+    """Print agentic version banner."""
+    print(f"{CYAN}{BOLD}")
+    print("╔══════════════════════════════════════════════════════╗")
+    print("║   🎯 LinkedIn Job Hunter Agent (Agentic)            ║")
+    print("║   AI-Powered Resume Customization              ║")
+    print("║   Cost: ₹0 (Free Gemini API)                 ║")
+    print("╚══════════════════════════════════════════════════════╝")
+    print(RESET)
+
+
+def ask_continue(prompt_msg="Continue?"):
+    """Ask user yes/no question."""
+    while True:
+        response = input(f"{prompt_msg} [y/n]: ").strip().lower()
+        if response in ("y", "yes"):
+            return True
+        elif response in ("n", "no"):
+            return False
+
+
+def print_match_percentage(percentage, label=""):
+    """Print match percentage with color coding."""
+    if percentage >= 70:
+        color = GREEN
+        emoji = "🔥"
+    elif percentage >= 50:
+        color = YELLOW
+        emoji = "◐"
+    else:
+        color = RED
+        emoji = "○"
+    
+    if label:
+        print(f"{color}{emoji} {label}: {percentage}%{RESET}")
+    else:
+        print(f"{color}{emoji} Match: {percentage}%{RESET}")

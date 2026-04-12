@@ -1,0 +1,62 @@
+{
+  "industry": "software_engineering",
+  "display_name": "Software Engineer",
+  "summary": "Backend engineer with 3+ years of experience building scalable APIs and distributed systems. Strong in Python, Django, FastAPI, PostgreSQL, Redis, and cloud infrastructure (AWS/GCP). Passionate about performance, reliability, and clean code.",
+  "skills": {
+    "languages": ["Python", "Go", "JavaScript", "SQL", "TypeScript"],
+    "frameworks": ["Django", "FastAPI", "Flask", "React", "Express"],
+    "databases": ["PostgreSQL", "Redis", "MongoDB", "MySQL"],
+    "cloud": ["AWS", "GCP", "Azure"],
+    "tools": ["Docker", "Kubernetes", "Git", "CI/CD", "Linux", "Terraform"],
+    "apis": ["REST", "GraphQL", "WebSocket", "gRPC"]
+  },
+  "experience": [
+    {
+      "title": "Senior Backend Engineer",
+      "company": "TechCorp India Pvt Ltd",
+      "duration": "2022 - Present",
+      "location": "Bangalore, India",
+      "highlights": [
+        "Built and maintained REST APIs handling 50K+ requests/day with 99.9% uptime",
+        "Reduced average API response time by 40% through Redis caching and query optimization",
+        "Designed a payment integration service processing ₹50L+ daily transactions",
+        "Led migration from monolithic Django to microservices architecture"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "StartupXYZ",
+      "duration": "2020 - 2022",
+      "location": "Remote",
+      "highlights": [
+        "Developed customer-facing APIs using FastAPI and PostgreSQL",
+        "Implemented real-time notifications using WebSockets",
+        "Wrote automated test suites achieving 85% code coverage"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science",
+      "institution": "ABC Engineering College",
+      "year": "2020",
+      "cgpa": "8.5"
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect",
+    "Google Cloud Professional Data Engineer"
+  ],
+  "projects": [
+    {
+      "name": "Open-source contributor",
+      "description": "Contributed to several Python libraries on GitHub"
+    },
+    {
+      "name": "Personal blog engine",
+      "description": "Built using Django"
+    }
+  ],
+  "open_source": true,
+  "github": "https://github.com/username"
+}
