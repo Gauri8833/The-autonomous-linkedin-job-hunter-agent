@@ -1,0 +1,41 @@
+REPLACE THIS ENTIRE FILE WITH YOUR ACTUAL RESUME IN PLAIN TEXT
+
+SUMMARY
+--------
+Backend engineer with 3+ years of experience building scalable APIs and distributed systems. Strong in Python, Django, FastAPI, PostgreSQL, Redis, and cloud infrastructure (AWS/GCP). Passionate about performance, reliability, and clean code.
+
+SKILLS
+------
+- Languages: Python, Go, JavaScript, SQL
+- Frameworks: Django, FastAPI, Flask, React
+- Databases: PostgreSQL, Redis, MongoDB
+- Cloud: AWS (EC2, S3, Lambda, RDS), GCP
+- Tools: Docker, Kubernetes, Git, CI/CD, Linux
+
+EXPERIENCE
+----------
+Backend Engineer | TechCorp India Pvt Ltd | 2022 - Present
+- Built and maintained REST APIs handling 50K+ requests/day
+- Reduced average API response time by 40% through Redis caching and query optimization
+- Designed a payment integration service processing ₹50L+ daily transactions
+- Led migration from monolithic Django to microservices architecture
+
+Software Engineer | StartupXYZ | 2020 - 2022
+- Developed customer-facing APIs using FastAPI and PostgreSQL
+- Implemented real-time notifications using WebSockets
+- Wrote automated test suites achieving 85% code coverage
+
+EDUCATION
+--------
+B.Tech in Computer Science | ABC Engineering College | 2020
+- Graduated with 8.5 CGPA
+- Specialization in Distributed Systems
+
+PROJECTS
+-------
+- Open-source contributor to several Python libraries on GitHub
+- Built a personal blog engine using Django (github.com/username/blog)
+
+WHAT I'M LOOKING FOR
+-----------------
+Looking for backend engineering roles at product companies where I can work on distributed systems, APIs, and high-scale services. Interested in teams that value code quality and continuous learning.

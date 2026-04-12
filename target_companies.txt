@@ -1,0 +1,15 @@
+# Add company names exactly as they appear on LinkedIn (one per line)
+# Lines starting with # are ignored
+
+Google
+Microsoft
+Amazon
+Infosys
+Tata Consultancy Services
+Wipro
+Zomato
+Razorpay
+Flipkart
+PhonePe
+CRED
+Swiggy
