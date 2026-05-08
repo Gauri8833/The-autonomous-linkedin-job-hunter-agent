@@ -105,4 +105,4 @@ BROWSER NOT FOUND
 - Run: playwright install chromium
 
 For issues, open an issue on GitHub:
-https://github.com/Gauri8833/linkedin-hunter/issues
+https://github.com/Gauri8833/linkedin-hunter/issues"Project updated on 08-05-2026" 
